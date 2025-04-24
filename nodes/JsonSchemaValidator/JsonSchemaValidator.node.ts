@@ -4,7 +4,7 @@ import type {
     INodeType,
     INodeTypeDescription,
 } from 'n8n-workflow';
-import { NodeConnectionType, NodeOperationError } from 'n8n-workflow';
+import { NodeOperationError } from 'n8n-workflow';
 import Ajv from 'ajv';
 
 export class JsonSchemaValidator implements INodeType {
@@ -17,8 +17,8 @@ export class JsonSchemaValidator implements INodeType {
         defaults: {
             name: 'JSON Schema Validator',
         },
-        inputs: [NodeConnectionType.Main],
-        outputs: [NodeConnectionType.Main],
+        inputs: ['main'],
+        outputs: ['main'],
         properties: [
             {
                 displayName: 'JSON Object',
