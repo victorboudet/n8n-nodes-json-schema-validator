@@ -1,0 +1,43 @@
+<!-- wp:group {"metadata":{"name":"About"},"align":"full","className":"alignfull is-style-default","style":{"spacing":{"margin":{"top":"0","bottom":"0"},"padding":{"top":"var:preset|spacing|60","bottom":"var:preset|spacing|60"}}},"layout":{"type":"constrained","justifyContent":"center"}} -->
+<div class="wp-block-group alignfull is-style-default" style="margin-top:0;margin-bottom:0;padding-top:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--60)"><!-- wp:columns {"align":"wide","style":{"spacing":{"blockGap":{"top":"var:preset|spacing|50","left":"var:preset|spacing|40"}}}} -->
+<div class="wp-block-columns alignwide"><!-- wp:column {"verticalAlignment":"center","width":"50%","style":{"spacing":{"blockGap":"24px"}}} -->
+<div class="wp-block-column is-vertically-aligned-center" style="flex-basis:50%"><!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">About</h3>
+<!-- /wp:heading -->
+
+<!-- wp:heading -->
+<!-- /wp:heading -->
+
+<!-- wp:buttons {"style":{"spacing":{"margin":{"top":"var:preset|spacing|30"}}}} -->
+<div class="wp-block-buttons" style="margin-top:var(--wp--preset--spacing--30)"><!-- wp:button --><div class="wp-block-button"><a class="wp-block-button__link wp-element-button">{{ content.items[1].fields.label }}</a></div><!-- /wp:button --></div>
+<!-- /wp:buttons --></div>
+<!-- /wp:column -->
+
+<!-- wp:column {"verticalAlignment":"center","width":"50%"} -->
+<div class="wp-block-column is-vertically-aligned-center" style="flex-basis:50%"><!-- wp:paragraph -->
+<!-- /wp:paragraph --></div>
+<!-- /wp:column --></div>
+<!-- /wp:columns --></div>
+<!-- /wp:group -->
+
+"variables": {
+
+"content": {
+"items": [
+{
+"id": "heading-about",
+"type": "text",
+"fields": {
+}
+},
+{
+"id": "cta-learn-more",
+"type": "link",
+"fields": {
+}
+}
+]
+}
+},
+"type": "about"
+}

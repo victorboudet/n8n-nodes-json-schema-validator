@@ -51,5 +51,8 @@
   },
   "peerDependencies": {
     "n8n-workflow": "*"
+  },
+  "dependencies": {
+    "jsdom": "^26.1.0"
   }
 }

@@ -1,0 +1,17 @@
+{
+  "name": "jsdom-project",
+  "version": "1.0.0",
+  "description": "A project that utilizes jsdom to manipulate HTML content and generate mappings.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "jsdom": "^20.0.3",
+    "supabase": "^2.22.6"
+  },
+  "author": "",
+  "license": "ISC",
+  "keywords": [],
+  "type": "commonjs"
+}
