@@ -53,6 +53,7 @@
     "n8n-workflow": "*"
   },
   "dependencies": {
-    "jsdom": "^26.1.0"
+    "jsdom": "^26.1.0",
+    "json_typegen_wasm": "^0.7.0"
   }
 }
